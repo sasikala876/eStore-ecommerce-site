@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+#header {
+    background-color:#333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+#logo h3,#menus ul li,#menu ul li,img {
+    cursor: pointer;
+}
+#menus ul li {
+  display: inline;
+    list-style-type: none;
+    padding-left: 2rem;
+    text-transform: capitalize;
+}
+#menu ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 23px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#navigation {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+#textBox {
+    padding: 8px 15px;
+    width: 180px;
+    border:solid rgb(126 114 114)
+}
+#bannerSection{
+    padding: 1rem 4rem 1rem 2.8rem;
+    background: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+#bannerSection__left {
+    padding: 3rem 0;
+}
+#bannerSection__center {
+    padding: 5rem 0;
+}
+#bannerSection__center p {
+    text-transform:uppercase;
+    font-size: 50px;
+}
+#bannerSection__right span {
+    display: block;
+}
+#bannerSection__right p {
+    font-size: 17px;
+    margin-top: 1rem;
+}
+#productsSection {
+    padding: 2rem 4rem;
+}
+#products__top {
+    display: flex;
+    justify-content: space-between;
+}
+.image__top {
+    height: 119px;
+    width: 140px;
+    margin:0 0 1rem;
+}
+.products__deals p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+    text-transform: capitalize;
+}
+.products__deals {
+    margin: 2rem 0;
+}
+.products__title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.offer__text {
+    color: red;
+}
+.image__bottom {
+    height: 140px;
+    width: 170px;
+    /* margin: 1rem 0; */
+    border: 1px solid black;
+    padding: 1rem;
+}
+.offer__texts {
+    background: skyblue;
+    transform: translateY(-9px);
+    padding: 0.5rem 1rem;
+}
+.offer__texts .shopNow__text {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#bottom__sectionOne,#bottom__sectionTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bottom__sectionOne .products__deals p,#bottom__sectionTwo .products__deals p{
+    font-size: 14px;
+}
+.row__bottom {
+    margin: 1rem 0;
+    word-spacing: 5px;
+}
+.row__bottom ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 13px;
+}
+.links {
+    text-decoration: none;
+    color: #333;
+    text-transform: capitalize;
+}
+#footer {
+    background-color: #131a22;
+    padding: 2rem 4rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .links {
+    color: white;
+}
+.footer__links ul li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    font-weight: lighter;
+}
+.footer__links ul li p {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin:1rem 0;
+}
